@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated test parts and test outputs (tests/_common.py rebuilds them)
+tests/_work/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Large scan data does not belong in git
+*.stl
+*.obj
+*.ply

@@ -1,0 +1,2 @@
+-r requirements.txt
+mapbox-earcut>=1.0  # polygon triangulation for generating the test parts (tests/_common.py)

@@ -1,0 +1,4 @@
+# Normalise line endings in the repository; check out with the platform's native endings.
+* text=auto
+# VBScript macros and the SolidWorks mock harness are run by Windows Script Host: keep CRLF.
+*.vbs text eol=crlf
